@@ -1,0 +1,28 @@
+{
+  "name": "leverix-contracts",
+  "version": "1.0.0",
+  "description": "Robinhood Chain testnet index long/short settlement sandbox",
+  "scripts": {
+    "compile": "node scripts/compile.mjs",
+    "test": "node --test --test-concurrency=1 test/sandbox.test.mjs",
+    "preflight": "node scripts/preflight.mjs",
+    "deploy": "node scripts/deploy.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "refresh-prices": "node scripts/refresh-prices.mjs",
+    "verify": "node scripts/verify.mjs",
+    "keeper": "node scripts/keeper.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "ganache": "7.9.2",
+    "solc": "0.8.28"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "5.4.0",
+    "ethers": "6.17.0"
+  },
+  "private": true
+}

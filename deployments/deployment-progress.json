@@ -1,0 +1,53 @@
+{
+  "chainId": 46630,
+  "displayBrand": "Leverix",
+  "historicalOnchainTokenName": "LATQOR Demo USD",
+  "deployer": "0x8b3283a9291373069f79508da59001e807bB394F",
+  "transactions": [
+    {
+      "label": "Deploy dUSD (historical LATQOR Demo USD)",
+      "hash": "0xd92e1a0a7fa5664b476dbc31b0c4a246b60c0efaa654a9f0b0c3bcd98222bfa8",
+      "blockNumber": 121169714,
+      "gasUsed": "698336",
+      "gasPrice": "10000000",
+      "feeETH": "0.00000698336",
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/tx/0xd92e1a0a7fa5664b476dbc31b0c4a246b60c0efaa654a9f0b0c3bcd98222bfa8"
+    },
+    {
+      "label": "Deploy index perpetual sandbox",
+      "hash": "0xb35de3fdd0d042c3add058baeaa8b67fa71b8c76ddf901ebcb188ab1c454407f",
+      "blockNumber": 121169763,
+      "gasUsed": "2166661",
+      "gasPrice": "10000000",
+      "feeETH": "0.00002166661",
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/tx/0xb35de3fdd0d042c3add058baeaa8b67fa71b8c76ddf901ebcb188ab1c454407f"
+    },
+    {
+      "label": "Approve demo reserve",
+      "hash": "0x9f9e82230886b46e5c7669c6aafd5f1b3e70c58f5f965e7b6e8bd421ea07564a",
+      "blockNumber": 121169810,
+      "gasUsed": "52697",
+      "gasPrice": "10000000",
+      "feeETH": "0.00000052697",
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/tx/0x9f9e82230886b46e5c7669c6aafd5f1b3e70c58f5f965e7b6e8bd421ea07564a"
+    },
+    {
+      "label": "Seed 500,000 dUSD reserve",
+      "hash": "0x41cac69252eba94aaac81ca22e129aa08062cf2ad072583d64e5a67d32859038",
+      "blockNumber": 121169862,
+      "gasUsed": "86774",
+      "gasPrice": "10000000",
+      "feeETH": "0.00000086774",
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/tx/0x41cac69252eba94aaac81ca22e129aa08062cf2ad072583d64e5a67d32859038"
+    },
+    {
+      "label": "Initialize all 32 synthetic DEMO benchmark prices",
+      "hash": "0x47f2be2175146dd320e96c62a5d13ce978e8e1d7a47518219964374ede31467e",
+      "blockNumber": 121169906,
+      "gasUsed": "854690",
+      "gasPrice": "10000000",
+      "feeETH": "0.0000085469",
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/tx/0x47f2be2175146dd320e96c62a5d13ce978e8e1d7a47518219964374ede31467e"
+    }
+  ]
+}

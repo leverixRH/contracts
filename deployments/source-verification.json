@@ -1,0 +1,47 @@
+{
+  "checkedAt": "2026-09-18T09:51:34.095Z",
+  "chainId": 46630,
+  "reports": [
+    {
+      "contract": "DemoUSD",
+      "address": "0x6bfcF1343F7c1631cb5aD61513ae07Ab09f2F1ea",
+      "submission": {
+        "message": "OK",
+        "result": "6bfcf1343f7c1631cb5ad61513ae07ab09f2f1ea6aad0997",
+        "status": "1"
+      },
+      "status": {
+        "message": "OK",
+        "result": "Pass - Verified",
+        "status": "1"
+      },
+      "sourceVerified": true,
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/address/0x6bfcF1343F7c1631cb5aD61513ae07Ab09f2F1ea?tab=contract"
+    },
+    {
+      "contract": "IndexPerpSandbox",
+      "address": "0xaa790F4610a38e925f19fB054E2ADf68cD8de38d",
+      "submission": {
+        "message": "OK",
+        "result": "aa790f4610a38e925f19fb054e2adf68cd8de38d6aad099d",
+        "status": "1"
+      },
+      "status": {
+        "message": "OK",
+        "result": "Pass - Verified",
+        "status": "1"
+      },
+      "sourceVerified": true,
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/address/0xaa790F4610a38e925f19fB054E2ADf68cD8de38d?tab=contract"
+    }
+  ],
+  "historicalSourceSnapshot": {
+    "contract": "DemoUSD",
+    "address": "0x6bfcF1343F7c1631cb5aD61513ae07Ab09f2F1ea",
+    "immutableOnchainName": "LATQOR Demo USD",
+    "sourcePath": "contracts/deployments/historical/latqor-demo-usd/DemoUSD.sol",
+    "manifestPath": "contracts/deployments/historical/latqor-demo-usd/manifest.json",
+    "explorerResponsePath": "output/latqor-contract-details.json",
+    "note": "Historical source for the existing address. contracts/src/DemoUSD.sol uses Leverix Demo USD only for a future deployment."
+  }
+}

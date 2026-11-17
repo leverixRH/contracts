@@ -1,0 +1,64 @@
+{
+  "checkedAt": "2026-09-18T09:35:14.965Z",
+  "chainId": 46630,
+  "address": "0x8b3283a9291373069f79508da59001e807bB394F",
+  "status": "passed",
+  "positionId": "1",
+  "initialWalletDUSD": "500000.0",
+  "finalWalletDUSD": "510000.0",
+  "finalAvailableCollateralDUSD": "0.0",
+  "engineTokenBalanceDUSD": "500000.0",
+  "accountedDUSD": "500000.0",
+  "positionClosed": true,
+  "transactions": [
+    {
+      "step": "Claim 10,000 worthless dUSD",
+      "hash": "0xa156a011ad1391188206d9cda7ff622f48bcfb17e3714016271329eabc9e0561",
+      "blockNumber": 121164331,
+      "gasUsed": "60733",
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/tx/0xa156a011ad1391188206d9cda7ff622f48bcfb17e3714016271329eabc9e0561"
+    },
+    {
+      "step": "Refresh US500 synthetic DEMO price",
+      "hash": "0x4e06dddf35dd9b1ac71f35cdb72b8f78d330ec1e09f471a062db5ab4e58c9f97",
+      "blockNumber": 121164371,
+      "gasUsed": "36510",
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/tx/0x4e06dddf35dd9b1ac71f35cdb72b8f78d330ec1e09f471a062db5ab4e58c9f97"
+    },
+    {
+      "step": "Approve exactly 100 dUSD",
+      "hash": "0xe77ea454e866ee3169c46fa1890c05d4403c175162c2fb434f92655c4913a7d5",
+      "blockNumber": 121164413,
+      "gasUsed": "51653",
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/tx/0xe77ea454e866ee3169c46fa1890c05d4403c175162c2fb434f92655c4913a7d5"
+    },
+    {
+      "step": "Deposit 100 dUSD",
+      "hash": "0xb7cf419bdb610d481e13344a6472266e2ea6849a142f8d851b40e8f193762213",
+      "blockNumber": 121164462,
+      "gasUsed": "93280",
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/tx/0xb7cf419bdb610d481e13344a6472266e2ea6849a142f8d851b40e8f193762213"
+    },
+    {
+      "step": "Open 2x long with 25 dUSD margin",
+      "hash": "0x3757a06449fb3907b369cc3193393c97823f4385aa48acab4f22c37806422053",
+      "blockNumber": 121164502,
+      "gasUsed": "233162",
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/tx/0x3757a06449fb3907b369cc3193393c97823f4385aa48acab4f22c37806422053"
+    },
+    {
+      "step": "Close at unchanged DEMO price",
+      "hash": "0x91c1c37b12ac7dff059d05ccae4684d2b191177b5763b395c8f81bb5cff15b2b",
+      "blockNumber": 121164541,
+      "gasUsed": "60496",
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/tx/0x91c1c37b12ac7dff059d05ccae4684d2b191177b5763b395c8f81bb5cff15b2b"
+    },
+    {
+      "step": "Withdraw 100 dUSD",
+      "hash": "0xe2a67576cfa6de821eb4f40d3b7699de51b710fff29023b04a9ac6fa5a35f5c7",
+      "blockNumber": 121164573,
+      "gasUsed": "47974",
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/tx/0xe2a67576cfa6de821eb4f40d3b7699de51b710fff29023b04a9ac6fa5a35f5c7"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "historical-source-snapshot",
+  "contract": "DemoUSD",
+  "network": "Robinhood Chain Testnet",
+  "chainId": 46630,
+  "address": "0x6bfcF1343F7c1631cb5aD61513ae07Ab09f2F1ea",
+  "immutableOnchainName": "LATQOR Demo USD",
+  "symbol": "dUSD",
+  "decimals": 6,
+  "verifiedAt": "2026-09-18T09:51:23.530493Z",
+  "compilerVersion": "v0.8.28+commit.7893614a",
+  "evmVersion": "paris",
+  "optimizer": {
+    "enabled": true,
+    "runs": 200
+  },
+  "sourceFile": "DemoUSD.sol",
+  "sourceSha256": "sha256:5ae6213c39bd08426578a82613f71762e2dddf105871293ac56e8a15c14c7bae",
+  "deployedBytecodeHash": "0x89cee9eca9bf654e6a293feded1dd6d2f96f9b765495dbdcfa1579fc70f8539e",
+  "explorerDetailsUrl": "https://explorer.testnet.chain.robinhood.com/api/v2/smart-contracts/0x6bfcF1343F7c1631cb5aD61513ae07Ab09f2F1ea",
+  "explorerContractUrl": "https://explorer.testnet.chain.robinhood.com/address/0x6bfcF1343F7c1631cb5aD61513ae07Ab09f2F1ea?tab=contract",
+  "status": "Historical immutable deployment. The current source at contracts/src/DemoUSD.sol uses Leverix Demo USD for a future deployment; it is not the source snapshot for this address.",
+  "explorerResponsePath": "../../../../output/latqor-contract-details.json",
+  "explorerResponseSha256": "sha256:45b5d146acb244db43603d866305bf637597690d98c78abcff780dbed3dafbe6",
+  "originalCapturePath": "../../../../output/latqor-contract-details.raw.json",
+  "originalCaptureSha256": "sha256:519dc1361459eb434b9ba23d6205e29b924859fda350de6c31abf737de411ed7"
+}

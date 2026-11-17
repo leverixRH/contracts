@@ -1,0 +1,227 @@
+{
+  "checkedAt": "2026-09-18T09:51:56.430Z",
+  "chainId": 46630,
+  "address": "0x8b3283a9291373069f79508da59001e807bB394F",
+  "status": "passed",
+  "positionId": "1",
+  "initialWalletDUSD": "500000.0",
+  "finalWalletDUSD": "510000.0",
+  "finalAvailableCollateralDUSD": "0.0",
+  "engineTokenBalanceDUSD": "500000.0",
+  "accountedDUSD": "500000.0",
+  "positionClosed": true,
+  "maxLeverage": 20,
+  "marketStates": [
+    {
+      "symbol": "MERVAL",
+      "price": "218000000000000",
+      "enabled": true
+    },
+    {
+      "symbol": "ASX200",
+      "price": "832040000000",
+      "enabled": true
+    },
+    {
+      "symbol": "ATX",
+      "price": "435060000000",
+      "enabled": true
+    },
+    {
+      "symbol": "BEL20",
+      "price": "442070000000",
+      "enabled": true
+    },
+    {
+      "symbol": "IBOV",
+      "price": "13850000000000",
+      "enabled": true
+    },
+    {
+      "symbol": "TSX",
+      "price": "2598040000000",
+      "enabled": true
+    },
+    {
+      "symbol": "IPSA",
+      "price": "792050000000",
+      "enabled": true
+    },
+    {
+      "symbol": "SSECOMP",
+      "price": "342080000000",
+      "enabled": true
+    },
+    {
+      "symbol": "OMXC25",
+      "price": "189030000000",
+      "enabled": true
+    },
+    {
+      "symbol": "STOXX50",
+      "price": "532040000000",
+      "enabled": true
+    },
+    {
+      "symbol": "OMXH25",
+      "price": "467020000000",
+      "enabled": true
+    },
+    {
+      "symbol": "CAC40",
+      "price": "784060000000",
+      "enabled": true
+    },
+    {
+      "symbol": "DAX",
+      "price": "2347080000000",
+      "enabled": true
+    },
+    {
+      "symbol": "HSI",
+      "price": "2362050000000",
+      "enabled": true
+    },
+    {
+      "symbol": "NIFTY",
+      "price": "2468040000000",
+      "enabled": true
+    },
+    {
+      "symbol": "JCI",
+      "price": "718040000000",
+      "enabled": true
+    },
+    {
+      "symbol": "ISEQ",
+      "price": "1068030000000",
+      "enabled": true
+    },
+    {
+      "symbol": "TA35",
+      "price": "283050000000",
+      "enabled": true
+    },
+    {
+      "symbol": "FTSEMIB",
+      "price": "4028070000000",
+      "enabled": true
+    },
+    {
+      "symbol": "NIKKEI",
+      "price": "3782050000000",
+      "enabled": true
+    },
+    {
+      "symbol": "KOSPI",
+      "price": "281030000000",
+      "enabled": true
+    },
+    {
+      "symbol": "IPC",
+      "price": "5842060000000",
+      "enabled": true
+    },
+    {
+      "symbol": "AEX",
+      "price": "91480000000",
+      "enabled": true
+    },
+    {
+      "symbol": "WIG20",
+      "price": "278040000000",
+      "enabled": true
+    },
+    {
+      "symbol": "PSI",
+      "price": "749060000000",
+      "enabled": true
+    },
+    {
+      "symbol": "JSEALSI",
+      "price": "9368030000000",
+      "enabled": true
+    },
+    {
+      "symbol": "IBEX35",
+      "price": "1418050000000",
+      "enabled": true
+    },
+    {
+      "symbol": "SMI",
+      "price": "1212040000000",
+      "enabled": true
+    },
+    {
+      "symbol": "TAIEX",
+      "price": "2238060000000",
+      "enabled": true
+    },
+    {
+      "symbol": "BIST100",
+      "price": "968030000000",
+      "enabled": true
+    },
+    {
+      "symbol": "FTSE100",
+      "price": "868050000000",
+      "enabled": true
+    },
+    {
+      "symbol": "VNINDEX",
+      "price": "134070000000",
+      "enabled": true
+    }
+  ],
+  "transactions": [
+    {
+      "step": "Claim 10,000 worthless dUSD",
+      "hash": "0xeb04c99f6e8291398263930e33a65cf6b069ae8ec1f699794b4ab51ba0d387cf",
+      "blockNumber": 121170178,
+      "gasUsed": "61469",
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/tx/0xeb04c99f6e8291398263930e33a65cf6b069ae8ec1f699794b4ab51ba0d387cf"
+    },
+    {
+      "step": "Refresh MERVAL synthetic DEMO price",
+      "hash": "0xb14b5d302ab328137a8e9abf17137b824d3ff061ba7ebd05c32dcecfa24b5009",
+      "blockNumber": 121170248,
+      "gasUsed": "37737",
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/tx/0xb14b5d302ab328137a8e9abf17137b824d3ff061ba7ebd05c32dcecfa24b5009"
+    },
+    {
+      "step": "Approve exactly 100 dUSD",
+      "hash": "0x6e36ef9b1a9ac390d26560df8c8722909a64278f75ca7f688eb8377564ffc731",
+      "blockNumber": 121170300,
+      "gasUsed": "52804",
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/tx/0x6e36ef9b1a9ac390d26560df8c8722909a64278f75ca7f688eb8377564ffc731"
+    },
+    {
+      "step": "Deposit 100 dUSD",
+      "hash": "0x95eca5f259bdefe9bf5709034aacb8c86703a1f32730e4980700a84bc06d96b6",
+      "blockNumber": 121170343,
+      "gasUsed": "94204",
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/tx/0x95eca5f259bdefe9bf5709034aacb8c86703a1f32730e4980700a84bc06d96b6"
+    },
+    {
+      "step": "Open 20x long with 25 dUSD margin",
+      "hash": "0x180c00fc6c9b6b1b1abf0f105dcc79ba2220cf047921c7506270cd3cd6939851",
+      "blockNumber": 121170363,
+      "gasUsed": "234971",
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/tx/0x180c00fc6c9b6b1b1abf0f105dcc79ba2220cf047921c7506270cd3cd6939851"
+    },
+    {
+      "step": "Close at unchanged DEMO price",
+      "hash": "0x5832ee7fb0cedf678434329f89800da989a3f7aa49d3ce794a2b1364dfb9bd12",
+      "blockNumber": 121170378,
+      "gasUsed": "61858",
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/tx/0x5832ee7fb0cedf678434329f89800da989a3f7aa49d3ce794a2b1364dfb9bd12"
+    },
+    {
+      "step": "Withdraw 100 dUSD",
+      "hash": "0x599c0d291f4fd5d5567109cccce9bdbf90eb9cd91cd787fbd2adc7354bf673b8",
+      "blockNumber": 121170423,
+      "gasUsed": "48914",
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/tx/0x599c0d291f4fd5d5567109cccce9bdbf90eb9cd91cd787fbd2adc7354bf673b8"
+    }
+  ]
+}

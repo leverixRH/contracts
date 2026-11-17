@@ -1,0 +1,13 @@
+{
+  "checkedAt": "2026-09-18T09:50:37.533Z",
+  "command": "npm test",
+  "status": "passed",
+  "testCount": 13,
+  "passed": 13,
+  "failed": 0,
+  "marketCount": 32,
+  "maxLeverage": 20,
+  "solidityCompiler": "0.8.28+commit.7893614a.Emscripten.clang",
+  "sourceSHA256": "da84899368cec9896da214e347ed578fae648c2bcc124c199032d81760af2ff2",
+  "description": "Node test runner with in-process Ganache; includes full settlement, capped solvency,20x boundary,32-market atomic batch and oracle recovery."
+}

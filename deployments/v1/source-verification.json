@@ -1,0 +1,38 @@
+{
+  "checkedAt": "2026-09-18T09:34:57.009Z",
+  "chainId": 46630,
+  "reports": [
+    {
+      "contract": "DemoUSD",
+      "address": "0xd6a2e027d69A49999c2d30f870BC6f13C6D095DD",
+      "submission": {
+        "message": "OK",
+        "result": "d6a2e027d69a49999c2d30f870bc6f13c6d095dd6aad05aa",
+        "status": "1"
+      },
+      "status": {
+        "message": "OK",
+        "result": "Pass - Verified",
+        "status": "1"
+      },
+      "sourceVerified": true,
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/address/0xd6a2e027d69A49999c2d30f870BC6f13C6D095DD?tab=contract"
+    },
+    {
+      "contract": "IndexPerpSandbox",
+      "address": "0x551D6C88583798212e886af5FFBF28baBBEC6856",
+      "submission": {
+        "message": "OK",
+        "result": "551d6c88583798212e886af5ffbf28babbec68566aad05b6",
+        "status": "1"
+      },
+      "status": {
+        "message": "OK",
+        "result": "Pass - Verified",
+        "status": "1"
+      },
+      "sourceVerified": true,
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/address/0x551D6C88583798212e886af5FFBF28baBBEC6856?tab=contract"
+    }
+  ]
+}

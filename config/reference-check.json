@@ -1,0 +1,170 @@
+{
+  "checkedAt": "2026-09-18T09:46:12.713Z",
+  "source": "https://www.perpdex.lat/",
+  "referenceCount": 32,
+  "configuredCount": 32,
+  "exactSymbolMatch": true,
+  "markets": [
+    {
+      "symbol": "MERVAL",
+      "label": "S&P Merval",
+      "country": "Argentina"
+    },
+    {
+      "symbol": "ASX200",
+      "label": "S&P/ASX 200",
+      "country": "Australia"
+    },
+    {
+      "symbol": "ATX",
+      "label": "ATX",
+      "country": "Austria"
+    },
+    {
+      "symbol": "BEL20",
+      "label": "BEL 20",
+      "country": "Belgium"
+    },
+    {
+      "symbol": "IBOV",
+      "label": "Ibovespa",
+      "country": "Brazil"
+    },
+    {
+      "symbol": "TSX",
+      "label": "S&P/TSX Composite",
+      "country": "Canada"
+    },
+    {
+      "symbol": "IPSA",
+      "label": "S&P IPSA",
+      "country": "Chile"
+    },
+    {
+      "symbol": "SSECOMP",
+      "label": "SSE Composite",
+      "country": "China"
+    },
+    {
+      "symbol": "OMXC25",
+      "label": "OMX Copenhagen 25",
+      "country": "Denmark"
+    },
+    {
+      "symbol": "STOXX50",
+      "label": "EURO STOXX 50",
+      "country": "Europe"
+    },
+    {
+      "symbol": "OMXH25",
+      "label": "OMX Helsinki 25",
+      "country": "Finland"
+    },
+    {
+      "symbol": "CAC40",
+      "label": "CAC 40",
+      "country": "France"
+    },
+    {
+      "symbol": "DAX",
+      "label": "DAX 40",
+      "country": "Germany"
+    },
+    {
+      "symbol": "HSI",
+      "label": "Hang Seng Index",
+      "country": "Hong Kong"
+    },
+    {
+      "symbol": "NIFTY",
+      "label": "Nifty 50",
+      "country": "India"
+    },
+    {
+      "symbol": "JCI",
+      "label": "Jakarta Composite",
+      "country": "Indonesia"
+    },
+    {
+      "symbol": "ISEQ",
+      "label": "ISEQ All Share",
+      "country": "Ireland"
+    },
+    {
+      "symbol": "TA35",
+      "label": "TA-35",
+      "country": "Israel"
+    },
+    {
+      "symbol": "FTSEMIB",
+      "label": "FTSE MIB",
+      "country": "Italy"
+    },
+    {
+      "symbol": "NIKKEI",
+      "label": "Nikkei 225",
+      "country": "Japan"
+    },
+    {
+      "symbol": "KOSPI",
+      "label": "KOSPI Composite",
+      "country": "Korea"
+    },
+    {
+      "symbol": "IPC",
+      "label": "S&P/BMV IPC",
+      "country": "Mexico"
+    },
+    {
+      "symbol": "AEX",
+      "label": "AEX Index",
+      "country": "Netherlands"
+    },
+    {
+      "symbol": "WIG20",
+      "label": "WIG20",
+      "country": "Poland"
+    },
+    {
+      "symbol": "PSI",
+      "label": "PSI",
+      "country": "Portugal"
+    },
+    {
+      "symbol": "JSEALSI",
+      "label": "JSE All Share",
+      "country": "South Africa"
+    },
+    {
+      "symbol": "IBEX35",
+      "label": "IBEX 35",
+      "country": "Spain"
+    },
+    {
+      "symbol": "SMI",
+      "label": "Swiss Market Index",
+      "country": "Switzerland"
+    },
+    {
+      "symbol": "TAIEX",
+      "label": "TAIEX",
+      "country": "Taiwan"
+    },
+    {
+      "symbol": "BIST100",
+      "label": "BIST 100",
+      "country": "Turkey"
+    },
+    {
+      "symbol": "FTSE100",
+      "label": "FTSE 100",
+      "country": "UK"
+    },
+    {
+      "symbol": "VNINDEX",
+      "label": "VN-Index",
+      "country": "Vietnam"
+    }
+  ],
+  "configurationAlignedAt": "2026-09-18T09:48:26.054Z"
+}

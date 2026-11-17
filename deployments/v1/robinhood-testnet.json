@@ -1,0 +1,140 @@
+{
+  "project": "SENTRAVO",
+  "status": "deployed-testnet",
+  "deployedAt": "2026-09-18T09:34:03.897Z",
+  "name": "Robinhood Chain Testnet",
+  "chainId": 46630,
+  "chainIdHex": "0xb626",
+  "rpcUrl": "https://rpc.testnet.chain.robinhood.com",
+  "explorerUrl": "https://explorer.testnet.chain.robinhood.com",
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "documentation": "https://docs.robinhood.com/chain/connecting",
+  "faucetUrl": "https://faucet.testnet.chain.robinhood.com",
+  "deployer": "0x8b3283a9291373069f79508da59001e807bB394F",
+  "addresses": {
+    "demoUSD": "0xd6a2e027d69A49999c2d30f870BC6f13C6D095DD",
+    "indexPerpSandbox": "0x551D6C88583798212e886af5FFBF28baBBEC6856"
+  },
+  "contracts": {
+    "demoUSD": {
+      "address": "0xd6a2e027d69A49999c2d30f870BC6f13C6D095DD",
+      "constructorArguments": [],
+      "bytecodeHash": "0x89cee9eca9bf654e6a293feded1dd6d2f96f9b765495dbdcfa1579fc70f8539e"
+    },
+    "indexPerpSandbox": {
+      "address": "0x551D6C88583798212e886af5FFBF28baBBEC6856",
+      "constructorArguments": [
+        "0xd6a2e027d69A49999c2d30f870BC6f13C6D095DD",
+        "0x8b3283a9291373069f79508da59001e807bB394F"
+      ],
+      "bytecodeHash": "0x5b0ed2f2cf405d310b6f76395aed48ae23909965ffbc65a0433a5553c0d6dad3"
+    }
+  },
+  "markets": [
+    {
+      "symbol": "US500",
+      "label": "US 500",
+      "demoPrice": "5840.25",
+      "id": "0x5553353030000000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "584025000000"
+    },
+    {
+      "symbol": "DE40",
+      "label": "Germany 40",
+      "demoPrice": "23470.80",
+      "id": "0x4445343000000000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "2347080000000"
+    },
+    {
+      "symbol": "JP225",
+      "label": "Japan 225",
+      "demoPrice": "37820.50",
+      "id": "0x4a50323235000000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "3782050000000"
+    }
+  ],
+  "seedLiquidityDUSD": "500000",
+  "limitations": [
+    "Test tokens only; dUSD is not USDG and has no monetary value.",
+    "Operator-set synthetic demonstration quotes; not current index prices.",
+    "1-5x leverage. Profit and loss capped to initial margin. No funding.",
+    "Prices expire after 15 minutes. Operator must run refresh-prices.",
+    "After 24h without quotes, trader may cancel position at zero PnL.",
+    "Unaudited prototype, no real-money use or Robinhood affiliation."
+  ],
+  "compiler": "0.8.28+commit.7893614a.Emscripten.clang",
+  "transactions": [
+    {
+      "label": "Deploy SENTRAVO Demo USD",
+      "hash": "0x925a15748a36ab37cbe6aa936cdaa73b5ddc5f985401849c34ab76314f21c888",
+      "blockNumber": 121163924,
+      "gasUsed": "687280",
+      "gasPrice": "10000000",
+      "feeETH": "0.0000068728",
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/tx/0x925a15748a36ab37cbe6aa936cdaa73b5ddc5f985401849c34ab76314f21c888"
+    },
+    {
+      "label": "Deploy index perpetual sandbox",
+      "hash": "0x22371878ee65248ebbce86d96233d87712b69626e52074919141474086f7788a",
+      "blockNumber": 121163967,
+      "gasUsed": "2030997",
+      "gasPrice": "10000000",
+      "feeETH": "0.00002030997",
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/tx/0x22371878ee65248ebbce86d96233d87712b69626e52074919141474086f7788a"
+    },
+    {
+      "label": "Approve demo reserve",
+      "hash": "0x81c993101956d07e10a9e69279c306fd86cb92304528fdc9a356cb8825e7188e",
+      "blockNumber": 121164001,
+      "gasUsed": "51665",
+      "gasPrice": "10000000",
+      "feeETH": "0.00000051665",
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/tx/0x81c993101956d07e10a9e69279c306fd86cb92304528fdc9a356cb8825e7188e"
+    },
+    {
+      "label": "Seed 500,000 dUSD reserve",
+      "hash": "0xe00477969d7c98642659107e6d21b454de859c159d241ba9336fb142bd68b2d2",
+      "blockNumber": 121164037,
+      "gasUsed": "85926",
+      "gasPrice": "10000000",
+      "feeETH": "0.00000085926",
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/tx/0xe00477969d7c98642659107e6d21b454de859c159d241ba9336fb142bd68b2d2"
+    },
+    {
+      "label": "Set US500 DEMO price",
+      "hash": "0x0e62b3230af4eb90b511551e0b784c8dbf945d344e0e015f3698cc2b36a4a652",
+      "blockNumber": 121164066,
+      "gasUsed": "53843",
+      "gasPrice": "10000000",
+      "feeETH": "0.00000053843",
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/tx/0x0e62b3230af4eb90b511551e0b784c8dbf945d344e0e015f3698cc2b36a4a652"
+    },
+    {
+      "label": "Set DE40 DEMO price",
+      "hash": "0xdb76b9ac5fa7908d6eaf3629e5c088547d59954b03df29b27876ef305e938025",
+      "blockNumber": 121164099,
+      "gasUsed": "53831",
+      "gasPrice": "10000000",
+      "feeETH": "0.00000053831",
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/tx/0xdb76b9ac5fa7908d6eaf3629e5c088547d59954b03df29b27876ef305e938025"
+    },
+    {
+      "label": "Set JP225 DEMO price",
+      "hash": "0x29a7bceda6a8493e886a0b4548058e45972c6b9287883991a4f5b648bd9440e9",
+      "blockNumber": 121164136,
+      "gasUsed": "53855",
+      "gasPrice": "10000000",
+      "feeETH": "0.00000053855",
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/tx/0x29a7bceda6a8493e886a0b4548058e45972c6b9287883991a4f5b648bd9440e9"
+    }
+  ],
+  "gasBalanceBeforeETH": "0.00281470559",
+  "gasBalanceAfterETH": "0.00278453162"
+}

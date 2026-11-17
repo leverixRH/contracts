@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-09-18T09:27:22.708Z",
+  "name": "Robinhood Chain Testnet",
+  "chainId": 46630,
+  "chainIdHex": "0xb626",
+  "rpcUrl": "https://rpc.testnet.chain.robinhood.com",
+  "explorerUrl": "https://explorer.testnet.chain.robinhood.com",
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "documentation": "https://docs.robinhood.com/chain/connecting",
+  "faucetUrl": "https://faucet.testnet.chain.robinhood.com",
+  "address": "0x8b3283a9291373069f79508da59001e807bB394F",
+  "balanceWei": "2814705590000000",
+  "balanceETH": "0.00281470559",
+  "blockNumber": 121162000,
+  "funded": true
+}

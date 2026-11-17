@@ -1,0 +1,454 @@
+{
+  "project": "Leverix",
+  "version": 2,
+  "status": "deployed-testnet",
+  "displayBrand": "Leverix",
+  "historicalOnchainTokenName": "LATQOR Demo USD",
+  "deployedAt": "2026-09-18T09:50:35.633Z",
+  "name": "Robinhood Chain Testnet",
+  "chainId": 46630,
+  "chainIdHex": "0xb626",
+  "rpcUrl": "https://rpc.testnet.chain.robinhood.com",
+  "explorerUrl": "https://explorer.testnet.chain.robinhood.com",
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "documentation": "https://docs.robinhood.com/chain/connecting",
+  "faucetUrl": "https://faucet.testnet.chain.robinhood.com",
+  "deployer": "0x8b3283a9291373069f79508da59001e807bB394F",
+  "addresses": {
+    "demoUSD": "0x6bfcF1343F7c1631cb5aD61513ae07Ab09f2F1ea",
+    "indexPerpSandbox": "0xaa790F4610a38e925f19fB054E2ADf68cD8de38d"
+  },
+  "contracts": {
+    "demoUSD": {
+      "address": "0x6bfcF1343F7c1631cb5aD61513ae07Ab09f2F1ea",
+      "constructorArguments": [],
+      "bytecodeHash": "0x89cee9eca9bf654e6a293feded1dd6d2f96f9b765495dbdcfa1579fc70f8539e"
+    },
+    "indexPerpSandbox": {
+      "address": "0xaa790F4610a38e925f19fB054E2ADf68cD8de38d",
+      "constructorArguments": [
+        "0x6bfcF1343F7c1631cb5aD61513ae07Ab09f2F1ea",
+        "0x8b3283a9291373069f79508da59001e807bB394F"
+      ],
+      "bytecodeHash": "0x180d789839ac4776cc98a9ae189934772c542eef62b6ade21d1652ec28b004b8"
+    }
+  },
+  "markets": [
+    {
+      "symbol": "MERVAL",
+      "label": "S&P Merval",
+      "country": "Argentina",
+      "region": "Americas",
+      "demoPrice": "2180000.00",
+      "id": "0x4d455256414c0000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "218000000000000",
+      "priceSource": "fixed-synthetic-demo"
+    },
+    {
+      "symbol": "ASX200",
+      "label": "S&P/ASX 200",
+      "country": "Australia",
+      "region": "Asia Pacific",
+      "demoPrice": "8320.40",
+      "id": "0x4153583230300000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "832040000000",
+      "priceSource": "fixed-synthetic-demo"
+    },
+    {
+      "symbol": "ATX",
+      "label": "ATX",
+      "country": "Austria",
+      "region": "Europe",
+      "demoPrice": "4350.60",
+      "id": "0x4154580000000000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "435060000000",
+      "priceSource": "fixed-synthetic-demo"
+    },
+    {
+      "symbol": "BEL20",
+      "label": "BEL 20",
+      "country": "Belgium",
+      "region": "Europe",
+      "demoPrice": "4420.70",
+      "id": "0x42454c3230000000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "442070000000",
+      "priceSource": "fixed-synthetic-demo"
+    },
+    {
+      "symbol": "IBOV",
+      "label": "Ibovespa",
+      "country": "Brazil",
+      "region": "Americas",
+      "demoPrice": "138500.00",
+      "id": "0x49424f5600000000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "13850000000000",
+      "priceSource": "fixed-synthetic-demo"
+    },
+    {
+      "symbol": "TSX",
+      "label": "S&P/TSX Composite",
+      "country": "Canada",
+      "region": "Americas",
+      "demoPrice": "25980.40",
+      "id": "0x5453580000000000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "2598040000000",
+      "priceSource": "fixed-synthetic-demo"
+    },
+    {
+      "symbol": "IPSA",
+      "label": "S&P IPSA",
+      "country": "Chile",
+      "region": "Americas",
+      "demoPrice": "7920.50",
+      "id": "0x4950534100000000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "792050000000",
+      "priceSource": "fixed-synthetic-demo"
+    },
+    {
+      "symbol": "SSECOMP",
+      "label": "SSE Composite",
+      "country": "China",
+      "region": "Asia Pacific",
+      "demoPrice": "3420.80",
+      "id": "0x535345434f4d5000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "342080000000",
+      "priceSource": "fixed-synthetic-demo"
+    },
+    {
+      "symbol": "OMXC25",
+      "label": "OMX Copenhagen 25",
+      "country": "Denmark",
+      "region": "Europe",
+      "demoPrice": "1890.30",
+      "id": "0x4f4d584332350000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "189030000000",
+      "priceSource": "fixed-synthetic-demo"
+    },
+    {
+      "symbol": "STOXX50",
+      "label": "EURO STOXX 50",
+      "country": "Europe",
+      "region": "Europe",
+      "demoPrice": "5320.40",
+      "id": "0x53544f5858353000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "532040000000",
+      "priceSource": "fixed-synthetic-demo"
+    },
+    {
+      "symbol": "OMXH25",
+      "label": "OMX Helsinki 25",
+      "country": "Finland",
+      "region": "Europe",
+      "demoPrice": "4670.20",
+      "id": "0x4f4d584832350000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "467020000000",
+      "priceSource": "fixed-synthetic-demo"
+    },
+    {
+      "symbol": "CAC40",
+      "label": "CAC 40",
+      "country": "France",
+      "region": "Europe",
+      "demoPrice": "7840.60",
+      "id": "0x4341433430000000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "784060000000",
+      "priceSource": "fixed-synthetic-demo"
+    },
+    {
+      "symbol": "DAX",
+      "label": "DAX 40",
+      "country": "Germany",
+      "region": "Europe",
+      "demoPrice": "23470.80",
+      "id": "0x4441580000000000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "2347080000000",
+      "priceSource": "fixed-synthetic-demo"
+    },
+    {
+      "symbol": "HSI",
+      "label": "Hang Seng Index",
+      "country": "Hong Kong",
+      "region": "Asia Pacific",
+      "demoPrice": "23620.50",
+      "id": "0x4853490000000000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "2362050000000",
+      "priceSource": "fixed-synthetic-demo"
+    },
+    {
+      "symbol": "NIFTY",
+      "label": "Nifty 50",
+      "country": "India",
+      "region": "Asia Pacific",
+      "demoPrice": "24680.40",
+      "id": "0x4e49465459000000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "2468040000000",
+      "priceSource": "fixed-synthetic-demo"
+    },
+    {
+      "symbol": "JCI",
+      "label": "Jakarta Composite",
+      "country": "Indonesia",
+      "region": "Asia Pacific",
+      "demoPrice": "7180.40",
+      "id": "0x4a43490000000000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "718040000000",
+      "priceSource": "fixed-synthetic-demo"
+    },
+    {
+      "symbol": "ISEQ",
+      "label": "ISEQ All Share",
+      "country": "Ireland",
+      "region": "Europe",
+      "demoPrice": "10680.30",
+      "id": "0x4953455100000000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "1068030000000",
+      "priceSource": "fixed-synthetic-demo"
+    },
+    {
+      "symbol": "TA35",
+      "label": "TA-35",
+      "country": "Israel",
+      "region": "Middle East & Africa",
+      "demoPrice": "2830.50",
+      "id": "0x5441333500000000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "283050000000",
+      "priceSource": "fixed-synthetic-demo"
+    },
+    {
+      "symbol": "FTSEMIB",
+      "label": "FTSE MIB",
+      "country": "Italy",
+      "region": "Europe",
+      "demoPrice": "40280.70",
+      "id": "0x465453454d494200000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "4028070000000",
+      "priceSource": "fixed-synthetic-demo"
+    },
+    {
+      "symbol": "NIKKEI",
+      "label": "Nikkei 225",
+      "country": "Japan",
+      "region": "Asia Pacific",
+      "demoPrice": "37820.50",
+      "id": "0x4e494b4b45490000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "3782050000000",
+      "priceSource": "fixed-synthetic-demo"
+    },
+    {
+      "symbol": "KOSPI",
+      "label": "KOSPI Composite",
+      "country": "Korea",
+      "region": "Asia Pacific",
+      "demoPrice": "2810.30",
+      "id": "0x4b4f535049000000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "281030000000",
+      "priceSource": "fixed-synthetic-demo"
+    },
+    {
+      "symbol": "IPC",
+      "label": "S&P/BMV IPC",
+      "country": "Mexico",
+      "region": "Americas",
+      "demoPrice": "58420.60",
+      "id": "0x4950430000000000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "5842060000000",
+      "priceSource": "fixed-synthetic-demo"
+    },
+    {
+      "symbol": "AEX",
+      "label": "AEX Index",
+      "country": "Netherlands",
+      "region": "Europe",
+      "demoPrice": "914.80",
+      "id": "0x4145580000000000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "91480000000",
+      "priceSource": "fixed-synthetic-demo"
+    },
+    {
+      "symbol": "WIG20",
+      "label": "WIG20",
+      "country": "Poland",
+      "region": "Europe",
+      "demoPrice": "2780.40",
+      "id": "0x5749473230000000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "278040000000",
+      "priceSource": "fixed-synthetic-demo"
+    },
+    {
+      "symbol": "PSI",
+      "label": "PSI",
+      "country": "Portugal",
+      "region": "Europe",
+      "demoPrice": "7490.60",
+      "id": "0x5053490000000000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "749060000000",
+      "priceSource": "fixed-synthetic-demo"
+    },
+    {
+      "symbol": "JSEALSI",
+      "label": "JSE All Share",
+      "country": "South Africa",
+      "region": "Middle East & Africa",
+      "demoPrice": "93680.30",
+      "id": "0x4a5345414c534900000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "9368030000000",
+      "priceSource": "fixed-synthetic-demo"
+    },
+    {
+      "symbol": "IBEX35",
+      "label": "IBEX 35",
+      "country": "Spain",
+      "region": "Europe",
+      "demoPrice": "14180.50",
+      "id": "0x4942455833350000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "1418050000000",
+      "priceSource": "fixed-synthetic-demo"
+    },
+    {
+      "symbol": "SMI",
+      "label": "Swiss Market Index",
+      "country": "Switzerland",
+      "region": "Europe",
+      "demoPrice": "12120.40",
+      "id": "0x534d490000000000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "1212040000000",
+      "priceSource": "fixed-synthetic-demo"
+    },
+    {
+      "symbol": "TAIEX",
+      "label": "Taiwan Weighted Index",
+      "country": "Taiwan",
+      "region": "Asia Pacific",
+      "demoPrice": "22380.60",
+      "id": "0x5441494558000000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "2238060000000",
+      "priceSource": "fixed-synthetic-demo"
+    },
+    {
+      "symbol": "BIST100",
+      "label": "BIST 100",
+      "country": "Turkey",
+      "region": "Europe",
+      "demoPrice": "9680.30",
+      "id": "0x4249535431303000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "968030000000",
+      "priceSource": "fixed-synthetic-demo"
+    },
+    {
+      "symbol": "FTSE100",
+      "label": "FTSE 100",
+      "country": "UK",
+      "region": "Europe",
+      "demoPrice": "8680.50",
+      "id": "0x4654534531303000000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "868050000000",
+      "priceSource": "fixed-synthetic-demo"
+    },
+    {
+      "symbol": "VNINDEX",
+      "label": "VN-Index",
+      "country": "Vietnam",
+      "region": "Asia Pacific",
+      "demoPrice": "1340.70",
+      "id": "0x564e494e44455800000000000000000000000000000000000000000000000000",
+      "priceDecimals": 8,
+      "price": "134070000000",
+      "priceSource": "fixed-synthetic-demo"
+    }
+  ],
+  "maxLeverage": 20,
+  "seedLiquidityDUSD": "500000",
+  "limitations": [
+    "Test tokens only; dUSD is not USDG and has no monetary value.",
+    "Operator-set synthetic demonstration quotes; not current index prices.",
+    "1-20x leverage. Profit and loss capped to initial margin. No funding.",
+    "Prices expire after 15 minutes. Operator must run refresh-prices.",
+    "After 24h without quotes, trader may cancel position at zero PnL.",
+    "Unaudited prototype, no real-money use or Robinhood affiliation."
+  ],
+  "compiler": "0.8.28+commit.7893614a.Emscripten.clang",
+  "transactions": [
+    {
+      "label": "Deploy dUSD (historical LATQOR Demo USD)",
+      "hash": "0xd92e1a0a7fa5664b476dbc31b0c4a246b60c0efaa654a9f0b0c3bcd98222bfa8",
+      "blockNumber": 121169714,
+      "gasUsed": "698336",
+      "gasPrice": "10000000",
+      "feeETH": "0.00000698336",
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/tx/0xd92e1a0a7fa5664b476dbc31b0c4a246b60c0efaa654a9f0b0c3bcd98222bfa8"
+    },
+    {
+      "label": "Deploy index perpetual sandbox",
+      "hash": "0xb35de3fdd0d042c3add058baeaa8b67fa71b8c76ddf901ebcb188ab1c454407f",
+      "blockNumber": 121169763,
+      "gasUsed": "2166661",
+      "gasPrice": "10000000",
+      "feeETH": "0.00002166661",
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/tx/0xb35de3fdd0d042c3add058baeaa8b67fa71b8c76ddf901ebcb188ab1c454407f"
+    },
+    {
+      "label": "Approve demo reserve",
+      "hash": "0x9f9e82230886b46e5c7669c6aafd5f1b3e70c58f5f965e7b6e8bd421ea07564a",
+      "blockNumber": 121169810,
+      "gasUsed": "52697",
+      "gasPrice": "10000000",
+      "feeETH": "0.00000052697",
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/tx/0x9f9e82230886b46e5c7669c6aafd5f1b3e70c58f5f965e7b6e8bd421ea07564a"
+    },
+    {
+      "label": "Seed 500,000 dUSD reserve",
+      "hash": "0x41cac69252eba94aaac81ca22e129aa08062cf2ad072583d64e5a67d32859038",
+      "blockNumber": 121169862,
+      "gasUsed": "86774",
+      "gasPrice": "10000000",
+      "feeETH": "0.00000086774",
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/tx/0x41cac69252eba94aaac81ca22e129aa08062cf2ad072583d64e5a67d32859038"
+    },
+    {
+      "label": "Initialize all 32 synthetic DEMO benchmark prices",
+      "hash": "0x47f2be2175146dd320e96c62a5d13ce978e8e1d7a47518219964374ede31467e",
+      "blockNumber": 121169906,
+      "gasUsed": "854690",
+      "gasPrice": "10000000",
+      "feeETH": "0.0000085469",
+      "explorerUrl": "https://explorer.testnet.chain.robinhood.com/tx/0x47f2be2175146dd320e96c62a5d13ce978e8e1d7a47518219964374ede31467e"
+    }
+  ],
+  "gasBalanceBeforeETH": "0.00277869354",
+  "gasBalanceAfterETH": "0.00274010196"
+}
